@@ -1,6 +1,9 @@
 import pandas as pd
 import seaborn as sea
 import matplotlib.pyplot as plt
+import numpy as np
+
+from sklearn.cluster import KMeans
 def data_analysis():
   file = pd.read_csv('Time_Wasters_on_Social_Media.csv')
 
